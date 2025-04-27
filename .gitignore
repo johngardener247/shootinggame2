@@ -1,0 +1,128 @@
+# Dependency directories
+node_modules/
+bower_components/
+jspm_packages/
+package-lock.json
+yarn.lock
+yarn-error.log
+npm-debug.log*
+.pnp/
+.pnp.js
+
+# Build output
+dist/
+build/
+out/
+coverage/
+*.min.js
+*.bundle.js
+.webpack/
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+.env*.local
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+.project
+.classpath
+.settings/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Cache and temporary files
+.tmp/
+.temp/
+.cache/
+.eslintcache
+.stylelintcache
+.npm/
+.sass-cache/
+*.tsbuildinfo
+
+# Game specific files (add/modify based on your engine)
+# Unity
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+Assets/AssetStoreTools*
+.vs/
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.apk
+*.unitypackage
+
+# Unreal Engine
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vs/
+*.VC.db
+*.opensdf
+*.opendb
+*.sdf
+*.sln
+*.suo
+*.xcodeproj
+*.xcworkspace
+
+# Common game asset files to exclude if too large
+# Uncomment as needed:
+# *.mp3
+# *.wav
+# *.mp4
+# *.mov
+# *.psd
+# *.ai
+# *.blend
+# *.fbx
+# *.obj
+
+# Custom game specific directories and files
+# Add your project specific ignores below
+
+# Backup files
+*.bak
+*.backup
+*~
+*.swp
+
+# Test coverage
+coverage/
+.nyc_output/
