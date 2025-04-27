@@ -1,0 +1,80 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+
+# Your rule content
+
+- You can @ files here
+- You can use markdown but dont have to
+# Implementation Plan: Simple Target Shooting Game
+
+This plan provides concise steps for AI developers to create the base game. Each step includes a test for validation.
+
+## Step 1: Set up project structure
+- Create project directory with `assets`, `css`, `js` subdirectories.
+- Add `index.html`, `gamedesigndocument.md`, `techstack.md` to root.
+
+**Test:** Verify structure matches game design document.
+
+## Step 2: Set up HTML file
+- Create `index.html` with basic structure.
+- Add `<title>`, link `style.css`, add `<canvas>` with ID "gameCanvas", link `game.js`.
+
+**Test:** Open in browser, verify canvas display.
+
+## Step 3: Set up CSS file
+- Create `style.css` with rules for `body` and `canvas` dimensions and centering.
+
+**Test:** Open in browser, verify canvas size and centering.
+
+## Step 4: Set up game.js file
+- Create `game.js` with variables for canvas and context.
+- Add initialization function, call on page load.
+
+**Test:** Open in browser, verify no errors.
+
+## Step 5: Implement game loop
+- Add variables for game loop interval.
+- Add functions to start, stop, and handle game loop.
+- Call start function on initialization.
+
+**Test:** Open in browser, verify loop runs without errors.
+
+## Step 6: Implement target
+- Add variables for target position.
+- Add functions to spawn and draw target.
+- Call spawn on initialization, draw in game loop.
+
+**Test:** Open in browser, verify target display.
+
+## Step 7: Implement crosshair
+- Add variables for crosshair position.
+- Add functions to update and draw crosshair.
+- Call update and draw in game loop.
+
+**Test:** Open in browser, verify crosshair follows input.
+
+## Step 8: Implement shooting mechanic
+- Add function to handle click/touch events.
+- Check if crosshair within target bounds, increment score, respawn target.
+- Add event listeners for click/touch.
+
+**Test:** Open in browser, verify score increment and target respawn.
+
+## Step 9: Implement game timer
+- Add variables for game timer.
+- Add functions to start, update, and check timer.
+- Call start on initialization, update and check in game loop.
+
+**Test:** Open in browser, verify game ends after 30 seconds and displays score.
+
+## Step 10: Implement target visibility
+- Add variables for target visibility duration.
+- Add functions to update and check visibility.
+- Call update and check in game loop.
+
+**Test:** Open in browser, verify target appears for 1 second, disappears, and respawns.
+
+Follow these steps and validate with tests to create the base game. Further details and features can be added later.
