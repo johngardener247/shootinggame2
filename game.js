@@ -51,15 +51,15 @@ const explosion = {
 
 // Assets
 const targetImage = new Image();
-targetImage.src = '../../assets/target.png';
+targetImage.src = 'target.png';
 const crosshairImage = new Image();
-crosshairImage.src = '../../assets/crosshair.png';
+crosshairImage.src = 'crosshair.png';
 const explosionImage = new Image();
-explosionImage.src = '../../assets/explosion.png';
+explosionImage.src = 'explosion.png';
 
 // Audio
-const shotSound = new Audio('../../assets/hit.mp3');
-const hitSound = new Audio('../../assets/hit.mp3');
+const shotSound = new Audio('hit.mp3');
+const hitSound = new Audio('hit.mp3');
 
 // Initialize game
 function init() {
